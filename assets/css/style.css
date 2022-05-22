@@ -20,5 +20,33 @@ header h1 {
 
 /* apply style to <a> in <header> */
 header a {
+    text-decoration: none;
     color: #fce138;
+}
+
+/* apply style to the <nav> elements */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* apply style to additional elements */
+header nav ul li {
+    display: inline;
+}
+
+/* apply additional style to <a> elements in <header> */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* apply style to <h1> in <header> */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
 }
