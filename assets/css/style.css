@@ -102,12 +102,46 @@ section {
 /* apply style to hero-form class */
 .hero-form {
     padding: 20px;
-    color: #024e76;
+    color:#024e76;
     background-color: #fce138;
     width: 500px;
     border: black 3px solid;
     position: absolute;
     bottom: 120px;
-    right: 140px;
-    
+    right: 140px    
+}
+
+/* apply style to <h3> */
+.hero-form h3 {
+    font-size:xx-large;
+    margin: 0px;
+}
+
+/*add style to hero-form p*/
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+/*add additional formatting for input fields*/
+.form-input {
+    font-size: 16px;
+    border: #024e76 1px solid;
+    display: block;
+    padding: 7px 15px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+button {
+    color: #fce138;
+    background-color:#024e76;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+
 }
