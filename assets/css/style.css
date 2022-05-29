@@ -158,6 +158,7 @@ button {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+
 }
 
 /* adds formatting to steps */
@@ -172,11 +173,12 @@ button {
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: solid 3px;    
+    border-bottom: solid 3px;   
 }
 
 .primary-border {
     border-color: #fce138;
+    display: inline-block;
 }
 
 .secondary-border {
@@ -190,4 +192,19 @@ button {
 .steps img {
     width: 15%;
     margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps span {
+    font-size: 38px;
 }
