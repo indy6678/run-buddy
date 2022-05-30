@@ -14,7 +14,6 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
-    overflow: auto;
 }
 
 /* apply styles to <h1> in <header> */
@@ -232,4 +231,28 @@ button {
     padding: 35px;
     width: 65%;
     float: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
