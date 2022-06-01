@@ -15,6 +15,9 @@ header {
     padding: 20px 35px;
     background-color: #39a6b2;
     overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* apply styles to <h1> in <header> */
@@ -33,7 +36,6 @@ header a {
 
 /* apply style to the <nav> elements */
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
