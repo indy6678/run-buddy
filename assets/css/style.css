@@ -170,10 +170,7 @@ button {
     font-size: 16px;
 }
 
-/* centers all text within intro */
-.intro {
-    text-align: center;
-}
+
 
 /* adds formatting to intro p */
 .intro p {
@@ -182,21 +179,24 @@ button {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* adds formatting to steps */
 .steps {
-    text-align: center;
+    
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding-bottom: 20px;
+    text-align: center;    
     border-bottom: solid 3px;   
-    display: inline-block;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    
 }
 
 .primary-border {
@@ -232,7 +232,7 @@ button {
 }
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -262,6 +262,10 @@ button {
     text-align: right;
 }
 
+.flex-row {
+    display: flex
+}
+
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -280,7 +284,7 @@ button {
 
 /* Reach Out styles start */
 .contact {
-    text-align: center;
+    
     background:#024e76;
 }
 
