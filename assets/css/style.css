@@ -116,12 +116,12 @@ section {
     color:#024e76;
     background-color: #fce138;    
     border: black 3px solid;
-    width: 40%;    
+    width: 40%;  
     margin: 3.5%;
 }
 
 .hero-cta {
-    width: 35px;
+    width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
